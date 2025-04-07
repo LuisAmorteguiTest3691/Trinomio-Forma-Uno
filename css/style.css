@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .polynomial-container {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #userPolynomial {
+    width: 300px;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  #factorBtn {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  #steps {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 100px;
+    border-radius: 5px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  

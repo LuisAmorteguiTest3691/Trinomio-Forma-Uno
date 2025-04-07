@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Factorización de Trinomios (General)</title>
+  
+  <!-- Configuración de MathJax para renderizar LaTeX -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <h1>Factorización de Trinomios (General)</h1>
+  
+  <div class="polynomial-container">
+    <label for="userPolynomial">
+      Ingrese un trinomio (ej. <em>b^2-5b+6</em> o <em>697+v^16+58v^8</em>):
+    </label><br>
+    <input type="text" id="userPolynomial" placeholder="Ej: b^2-5b+6" />
+    <button id="factorBtn">Factorizar</button>
+  </div>
+  
+  <!-- Sección para mostrar el paso a paso -->
+  <div id="steps"></div>
+  
+  <script src="js/script_generalTrinomials.js"></script>
+</body>
+</html>
